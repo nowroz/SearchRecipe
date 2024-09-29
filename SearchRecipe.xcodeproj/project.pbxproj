@@ -13,7 +13,6 @@
 		CEE19B452C35CCC00048CABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE19B442C35CCC00048CABE /* Assets.xcassets */; };
 		CEE19B482C35CCC00048CABE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE19B472C35CCC00048CABE /* Preview Assets.xcassets */; };
 		CEE19B512C35CCEC0048CABE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19B502C35CCEC0048CABE /* Recipe.swift */; };
-		CEE19B532C35CD260048CABE /* RecipeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19B522C35CD260048CABE /* RecipeClient.swift */; };
 		CEE19B552C369C620048CABE /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19B542C369C620048CABE /* RecipeListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		CEE19B442C35CCC00048CABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE19B472C35CCC00048CABE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE19B502C35CCEC0048CABE /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		CEE19B522C35CD260048CABE /* RecipeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClient.swift; sourceTree = "<group>"; };
 		CEE19B542C369C620048CABE /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 			children = (
 				CEE19B502C35CCEC0048CABE /* Recipe.swift */,
 				CE52A2502CA8D4AE00027C84 /* Response.swift */,
-				CEE19B522C35CD260048CABE /* RecipeClient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,7 +170,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE19B532C35CD260048CABE /* RecipeClient.swift in Sources */,
 				CEE19B512C35CCEC0048CABE /* Recipe.swift in Sources */,
 				CEE19B552C369C620048CABE /* RecipeListView.swift in Sources */,
 				CEE19B432C35CCBF0048CABE /* ContentView.swift in Sources */,
