@@ -7,18 +7,22 @@
 
 import Foundation
 
-struct RecipeResponse: Decodable {
-    let results: [Recipe]
+struct Recipe {
+    let id: Int
+    let title: String
+    let publisher: String
+    let featuredImage: URL
 }
 
-struct Recipe: Identifiable, Decodable {
+extension Recipe: Identifiable {
+    
+}
+
+extension Recipe: Decodable {
     private enum CodingKeys: String, CodingKey {
         case id = "pk"
         case title
+        case publisher
         case featuredImage = "featured_image"
     }
-    
-    let id: Int
-    let title: String
-    let featuredImage: URL
 }

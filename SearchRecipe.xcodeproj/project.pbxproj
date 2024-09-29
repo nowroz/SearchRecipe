@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE52A2512CA8D4AE00027C84 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A2502CA8D4AE00027C84 /* Response.swift */; };
 		CEE19B412C35CCBF0048CABE /* SearchRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19B402C35CCBF0048CABE /* SearchRecipeApp.swift */; };
 		CEE19B432C35CCBF0048CABE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE19B422C35CCBF0048CABE /* ContentView.swift */; };
 		CEE19B452C35CCC00048CABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE19B442C35CCC00048CABE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE52A2502CA8D4AE00027C84 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		CEE19B3D2C35CCBF0048CABE /* SearchRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE19B402C35CCBF0048CABE /* SearchRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeApp.swift; sourceTree = "<group>"; };
 		CEE19B422C35CCBF0048CABE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +28,10 @@
 		CEE19B522C35CD260048CABE /* RecipeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClient.swift; sourceTree = "<group>"; };
 		CEE19B542C369C620048CABE /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE52A2522CA8D4CE00027C84 /* Support */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Support; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEE19B3A2C35CCBF0048CABE /* Frameworks */ = {
@@ -62,6 +68,7 @@
 				CEE19B4E2C35CCDB0048CABE /* Views */,
 				CEE19B442C35CCC00048CABE /* Assets.xcassets */,
 				CEE19B462C35CCC00048CABE /* Preview Content */,
+				CE52A2522CA8D4CE00027C84 /* Support */,
 			);
 			path = SearchRecipe;
 			sourceTree = "<group>";
@@ -87,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE19B502C35CCEC0048CABE /* Recipe.swift */,
+				CE52A2502CA8D4AE00027C84 /* Response.swift */,
 				CEE19B522C35CD260048CABE /* RecipeClient.swift */,
 			);
 			path = Models;
@@ -106,6 +114,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE52A2522CA8D4CE00027C84 /* Support */,
 			);
 			name = SearchRecipe;
 			productName = SearchRecipe;
@@ -166,6 +177,7 @@
 				CEE19B512C35CCEC0048CABE /* Recipe.swift in Sources */,
 				CEE19B552C369C620048CABE /* RecipeListView.swift in Sources */,
 				CEE19B432C35CCBF0048CABE /* ContentView.swift in Sources */,
+				CE52A2512CA8D4AE00027C84 /* Response.swift in Sources */,
 				CEE19B412C35CCBF0048CABE /* SearchRecipeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
